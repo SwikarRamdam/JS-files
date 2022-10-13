@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumCheck</title>
+    <script>
+        function checkit(){
+            var data = document.getElementById('data').value;
+            // var result  = Math.sign(data);
+            if(data>0){
+                result = ` ${data} is a Positive Number`;
+            }
+            else if(data<0){
+                result = ` ${data} is a Negative Number`;
+
+            }
+            else if(data ==0){
+                result = ` ${data} is zero`;
+            }
+            else{
+                result = ` ${data} is NaN`;
+            }
+            document.getElementById("result").innerText = result;
+        }
+    </script>
+</head>
+<body>
+    <input type="" name="" id="data"/>
+    <button onclick="checkit()">Check</button>
+    <h2 id="result"></h2>
+</body>
+</html>

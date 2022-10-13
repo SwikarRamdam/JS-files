@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+    <script>
+        var number = prompt("Enter a number");
+        var facto = 1;
+        console.log(facto);
+        function fact(n){
+        if (n>number){
+            return;
+        }
+        facto = facto * n;
+        console.log(facto);
+        n++;
+        fact(n);
+
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
