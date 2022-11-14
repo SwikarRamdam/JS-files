@@ -1,0 +1,12 @@
+{
+    "name": "Swikar",
+    "score": 11,
+    "isAdmin":false,
+    "License": null,
+    "fruitItems": ["mango","apple","banana"],
+    "myObj": {
+        "name" : "nested",
+        "marks":45,
+        "fruitItems2": ["mango1","apple","banana",{"a":true}]
+    }
+}
